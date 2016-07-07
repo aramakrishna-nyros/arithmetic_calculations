@@ -17,6 +17,7 @@ class Multiple
 			puts "#{i} is not a prime"
 		end  
 	end
+
 	def triangle(row)
 	    i,j = 1
 	    for i in (0...row).each     #represents rows
@@ -28,6 +29,7 @@ class Multiple
 	        print("\n")
 	    end
 	end 
+
 	def armstrong
 		puts "Enter a number"
 		number = STDIN.gets.to_i
@@ -43,6 +45,7 @@ class Multiple
 			puts "Not Armstrong"
 		end	
 	end
+	
 	def fact
 		puts"\nFind Factorial enter 1 \nFind nCr value enter 2 \nFind nPr value enter 3"
 		print"enter to go: "
